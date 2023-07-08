@@ -1,0 +1,59 @@
+/* Label styles */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Input styles */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 10px 20px;
+    background-color: #ed8010;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Table styles */
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: 10%;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: brown;
+    color: #fff;
+  }
+  
+  /* Background styles */
+  body {
+    background-color: #f2f2f2;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #007bff;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  /* Form styles */
+  form {
+    margin-bottom: 20px;
+  }
+  

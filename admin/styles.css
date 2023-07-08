@@ -1,0 +1,59 @@
+/* Define the color variables */
+:root {
+    --orange-color: orange;
+    --sky-white-color: white;
+  }
+  
+  /* Apply styles to the table */
+  table {
+    width: 70%;
+    border: 1px solid black;
+  }
+  
+  /* Apply styles to the table headers */
+  th {
+    background-color: var(--orange-color);
+    color: var(--sky-white-color);
+  }
+  
+  /* Apply styles to the table cells */
+  td {
+    background-color: var(--sky-white-color);
+    color: var(--orange-color);
+  }
+  
+  /* Apply styles to the table cell with the image */
+  td img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  
+  /* Apply styles to the link */
+  a {
+    color: var(--orange-color);
+    text-decoration: none;
+  }
+  
+  /* Apply styles to the main container */
+  .main {
+    background-color: var(--sky-white-color);
+    padding: 20px;
+  }
+  
+  /* Apply styles to the content container */
+  .content {
+    background-color: var(--orange-color);
+    padding: 10px;
+  }
+  
+  /* Apply styles to the order content container */
+  #order-content {
+    background-color: var(--sky-white-color);
+    padding: 10px;
+  }
+  
+  /* Apply styles to the visible class */
+  .visible {
+    display: block;
+  }
+  

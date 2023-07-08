@@ -1,0 +1,75 @@
+/* body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 0px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-group {
+    width: 300px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    background: rgb(223, 175, 175);
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border-width: 3px;
+} */
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+padding: 0px;
+background-color: lightgray; 
+/* background-image: url("mesh.png");
+background-size: contain;
+background-position: center; */
+}
+
+.form-group {
+width: 500px;
+
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+padding: 20px;
+text-align: center;
+border-width: 3px;
+
+}
+
+form{
+    background-color:orange;
+    
+    min-height: 60vh; 
+    padding: 20px; 
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+   
+}
+
+label, input{
+    margin: 20px 10px; 
+}
+
+input{
+    width: 80%;
+    height: 40px; 
+
+}
+
+input[type='submit']{
+    background-color: rgb(33, 33, 246);
+    color:white; 
+    font-size: 18px; 
+
+    height: 50px; 
+    border: none; 
+}
+
+
+input[type='submit']:hover{
+    background-color: rgb(238, 37, 71);
+    transition: background-color 0.3s ease;
+}
